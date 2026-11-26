@@ -1,23 +1,47 @@
+import { useEffect, useState } from 'react';
 import ConceptBar from './components/ConceptBar.jsx';
-
-const SWATCHES = ['bg', 'surface', 'text', 'text-muted', 'line', 'accent', 'success', 'warning', 'focus'];
+import Header from './components/Header.jsx';
+import TrackingForm from './components/TrackingForm.jsx';
+import StatusCard from './components/StatusCard.jsx';
+import Timeline from './components/Timeline.jsx';
+import Details from './components/Details.jsx';
+import Hint from './components/Hint.jsx';
+import Footer from './components/Footer.jsx';
+import { DEMO_PARCEL, DEMO_TTN, formatTtn } from './data/demo.js';
 
 export default function App() {
+  const [result, setResult] = useState(null); // null | { found: true } | { notFound: '...' }
+  const fromUrl = new URLSearchParams(location.search).get('ttn') || '';
+
+  function search(ttn) {
+    setResult(ttn.replace(/\D/g, '') === DEMO_TTN ? { found: true } : { notFound: ttn.replace(/\D/g, '') });
+  }
+  useEffect(() => {
+    if (fromUrl) search(fromUrl);
+  }, []);
+
   return (
     <>
       <ConceptBar />
-      <main className="mx-auto max-w-xl p-6">
-        <h1 className="text-2xl font-extrabold">Токени з Figma</h1>
-        <p className="mt-2 text-text-muted">Колекція «Трекінг · Tokens» у коді. Наступний крок - екран.</p>
-        <ul className="mt-6 grid grid-cols-3 gap-3">
-          {SWATCHES.map((s) => (
-            <li key={s} className="rounded-md border border-line bg-surface p-3 text-xs">
-              <span className="mb-2 block h-10 rounded-sm border border-line" style={{ background: `var(--color-${s})` }} />
-              {s}
-            </li>
-          ))}
-        </ul>
+      <Header />
+      <main className="mx-auto grid max-w-6xl gap-5 px-4 pb-10 lg:grid-cols-[minmax(0,520px)_minmax(0,1fr)] lg:gap-8 lg:px-8 lg:pt-4">
+        <div className="flex flex-col gap-5">
+          <h1 className="text-2xl font-extrabold tracking-tight lg:text-3xl">Де моя посилка?</h1>
+          <TrackingForm initial={fromUrl ? formatTtn(fromUrl.replace(/\D/g, '')) : ''} onSearch={search} />
+          {result?.found && <StatusCard parcel={DEMO_PARCEL} />}
+        </div>
+        <div className="flex flex-col gap-5 lg:pt-2">
+          {result?.found ? (
+            <>
+              <Timeline steps={DEMO_PARCEL.steps} />
+              <Details rows={DEMO_PARCEL.details} />
+            </>
+          ) : (
+            <Hint notFound={result?.notFound} />
+          )}
+        </div>
       </main>
+      <Footer />
     </>
   );
 }
