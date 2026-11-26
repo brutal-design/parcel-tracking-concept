@@ -25,7 +25,7 @@ const SEMANTIC = {
   'bg': 'color/paper/50',
   'surface': 'color/paper/0',
   'text': 'color/ink/950',
-  'text-muted': 'color/ink/400',
+  'text-muted': 'color/ink/600',
   'line': 'color/ink/200',
   'accent': 'color/signal/600',
   'accent-hover': 'color/signal/700',
