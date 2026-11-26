@@ -1,0 +1,1521 @@
+{
+ "version": 1,
+ "theme": {
+  "mode": "light",
+  "font": "Onest",
+  "radius": 12,
+  "bg": "#F4F5F7",
+  "surface": "#FFFFFF",
+  "text": "#15171C",
+  "muted": "#8C929D",
+  "border": "#E2E5EA",
+  "accent": "#D42A1E",
+  "onAccent": "#FFFFFF"
+ },
+ "frames": [
+  {
+   "type": "frame",
+   "name": "Трекінг · 390",
+   "children": [
+    {
+     "type": "frame",
+     "name": "Плашка концепту",
+     "children": [
+      {
+       "type": "text",
+       "content": "Redesign concept, not the official Nova Poshta website · Концепт редизайну, не офіційний сайт Нової пошти",
+       "size": 13,
+       "weight": 500,
+       "color": "$semantic/warning"
+      }
+     ],
+     "padding": [
+      8,
+      16
+     ],
+     "fill": "$semantic/warning-bg",
+     "width": "fill"
+    },
+    {
+     "type": "frame",
+     "name": "Шапка",
+     "children": [
+      {
+       "type": "text",
+       "content": "Відстеження посилки",
+       "size": 17,
+       "weight": 800,
+       "color": "$semantic/text"
+      },
+      {
+       "type": "frame",
+       "name": "Плашка",
+       "children": [
+        {
+         "type": "text",
+         "content": "концепт",
+         "size": 13,
+         "weight": 600,
+         "color": "$semantic/accent"
+        }
+       ],
+       "layout": "horizontal",
+       "padding": [
+        5,
+        10
+       ],
+       "radius": "full",
+       "fill": "$semantic/accent-soft"
+      }
+     ],
+     "layout": "horizontal",
+     "align": "space-between",
+     "crossAlign": "center",
+     "width": "fill",
+     "padding": [
+      16,
+      16
+     ]
+    },
+    {
+     "type": "frame",
+     "name": "Контент",
+     "children": [
+      {
+       "type": "text",
+       "content": "Де моя посилка?",
+       "size": 32,
+       "weight": 800,
+       "color": "$semantic/text",
+       "letterSpacing": "-0.02em"
+      },
+      {
+       "type": "frame",
+       "name": "Поле ТТН",
+       "children": [
+        {
+         "type": "text",
+         "content": "Номер накладної (ТТН)",
+         "size": 15,
+         "weight": 600,
+         "color": "$semantic/text"
+        },
+        {
+         "type": "frame",
+         "name": "Інпут",
+         "children": [
+          {
+           "type": "text",
+           "content": "20 4512 3456 7890",
+           "size": 20,
+           "weight": 500,
+           "color": "$semantic/text",
+           "letterSpacing": "0.02em"
+          }
+         ],
+         "layout": "horizontal",
+         "width": "fill",
+         "padding": [
+          14,
+          16
+         ],
+         "radius": 12,
+         "fill": "$semantic/surface",
+         "stroke": "$semantic/line",
+         "crossAlign": "center"
+        },
+        {
+         "type": "text",
+         "content": "14 цифр. Є в SMS і в застосунку",
+         "size": 13,
+         "weight": 400,
+         "color": "$semantic/text-muted"
+        },
+        {
+         "type": "frame",
+         "name": "Кнопка",
+         "children": [
+          {
+           "type": "text",
+           "content": "Відстежити",
+           "size": 17,
+           "weight": 700,
+           "color": "$semantic/on-accent"
+          }
+         ],
+         "layout": "horizontal",
+         "width": "fill",
+         "padding": [
+          14,
+          20
+         ],
+         "radius": 12,
+         "fill": "$semantic/accent",
+         "align": "center"
+        }
+       ],
+       "gap": 8,
+       "width": "fill"
+      },
+      {
+       "type": "frame",
+       "name": "Статус",
+       "children": [
+        {
+         "type": "frame",
+         "name": "Рядок",
+         "children": [
+          {
+           "type": "frame",
+           "name": "Плашка",
+           "children": [
+            {
+             "type": "text",
+             "content": "Чекає у відділенні",
+             "size": 13,
+             "weight": 600,
+             "color": "$semantic/success"
+            }
+           ],
+           "layout": "horizontal",
+           "padding": [
+            5,
+            10
+           ],
+           "radius": "full",
+           "fill": "$semantic/success-bg"
+          },
+          {
+           "type": "text",
+           "content": "демо-дані",
+           "size": 13,
+           "weight": 400,
+           "color": "$semantic/text-muted"
+          }
+         ],
+         "layout": "horizontal",
+         "align": "space-between",
+         "crossAlign": "center",
+         "width": "fill"
+        },
+        {
+         "type": "text",
+         "content": "Можна забирати",
+         "size": 32,
+         "weight": 800,
+         "color": "$semantic/text",
+         "letterSpacing": "-0.02em"
+        },
+        {
+         "type": "text",
+         "content": "Відділення №12 · вул. Прикладна, 1",
+         "size": 17,
+         "weight": 500,
+         "color": "$semantic/text"
+        },
+        {
+         "type": "frame",
+         "name": "Плашка",
+         "children": [
+          {
+           "type": "text",
+           "content": "Безкоштовно зберігається до пт 28.11",
+           "size": 13,
+           "weight": 600,
+           "color": "$semantic/warning"
+          }
+         ],
+         "layout": "horizontal",
+         "padding": [
+          5,
+          10
+         ],
+         "radius": "full",
+         "fill": "$semantic/warning-bg"
+        },
+        {
+         "type": "frame",
+         "name": "Дії",
+         "children": [
+          {
+           "type": "frame",
+           "name": "Дія",
+           "children": [
+            {
+             "type": "text",
+             "content": "Маршрут",
+             "size": 15,
+             "weight": 600,
+             "color": "$semantic/accent"
+            }
+           ],
+           "layout": "horizontal",
+           "padding": [
+            11,
+            16
+           ],
+           "radius": 12,
+           "stroke": "$semantic/line"
+          },
+          {
+           "type": "frame",
+           "name": "Дія",
+           "children": [
+            {
+             "type": "text",
+             "content": "Продовжити зберігання",
+             "size": 15,
+             "weight": 600,
+             "color": "$semantic/accent"
+            }
+           ],
+           "layout": "horizontal",
+           "padding": [
+            11,
+            16
+           ],
+           "radius": 12,
+           "stroke": "$semantic/line"
+          }
+         ],
+         "layout": "horizontal",
+         "gap": 8,
+         "wrap": true,
+         "rowGap": 8
+        }
+       ],
+       "gap": 12,
+       "padding": [
+        20,
+        20
+       ],
+       "radius": 20,
+       "fill": "$semantic/surface",
+       "stroke": "$semantic/line",
+       "width": "fill"
+      },
+      {
+       "type": "frame",
+       "name": "Маршрут посилки",
+       "children": [
+        {
+         "type": "text",
+         "content": "Маршрут",
+         "size": 20,
+         "weight": 700,
+         "color": "$semantic/text"
+        },
+        {
+         "type": "frame",
+         "name": "Крок",
+         "children": [
+          {
+           "type": "rect",
+           "name": "Точка",
+           "width": 12,
+           "height": 12,
+           "radius": 6,
+           "fill": "$semantic/text-muted"
+          },
+          {
+           "type": "frame",
+           "name": "Текст",
+           "children": [
+            {
+             "type": "text",
+             "content": "Посилку створено",
+             "size": 15,
+             "weight": 500,
+             "color": "$semantic/text"
+            },
+            {
+             "type": "text",
+             "content": "пн 23.11, 14:05 · Київ",
+             "size": 13,
+             "weight": 400,
+             "color": "$semantic/text-muted"
+            }
+           ],
+           "gap": 2
+          }
+         ],
+         "layout": "horizontal",
+         "gap": 12,
+         "crossAlign": "start"
+        },
+        {
+         "type": "frame",
+         "name": "Крок",
+         "children": [
+          {
+           "type": "rect",
+           "name": "Точка",
+           "width": 12,
+           "height": 12,
+           "radius": 6,
+           "fill": "$semantic/text-muted"
+          },
+          {
+           "type": "frame",
+           "name": "Текст",
+           "children": [
+            {
+             "type": "text",
+             "content": "Відправлено",
+             "size": 15,
+             "weight": 500,
+             "color": "$semantic/text"
+            },
+            {
+             "type": "text",
+             "content": "пн 23.11, 18:40 · Київ",
+             "size": 13,
+             "weight": 400,
+             "color": "$semantic/text-muted"
+            }
+           ],
+           "gap": 2
+          }
+         ],
+         "layout": "horizontal",
+         "gap": 12,
+         "crossAlign": "start"
+        },
+        {
+         "type": "frame",
+         "name": "Крок",
+         "children": [
+          {
+           "type": "rect",
+           "name": "Точка",
+           "width": 12,
+           "height": 12,
+           "radius": 6,
+           "fill": "$semantic/text-muted"
+          },
+          {
+           "type": "frame",
+           "name": "Текст",
+           "children": [
+            {
+             "type": "text",
+             "content": "Прибула в місто",
+             "size": 15,
+             "weight": 500,
+             "color": "$semantic/text"
+            },
+            {
+             "type": "text",
+             "content": "вт 24.11, 07:10 · Львів",
+             "size": 13,
+             "weight": 400,
+             "color": "$semantic/text-muted"
+            }
+           ],
+           "gap": 2
+          }
+         ],
+         "layout": "horizontal",
+         "gap": 12,
+         "crossAlign": "start"
+        },
+        {
+         "type": "frame",
+         "name": "Крок",
+         "children": [
+          {
+           "type": "rect",
+           "name": "Точка",
+           "width": 12,
+           "height": 12,
+           "radius": 6,
+           "fill": "$semantic/success"
+          },
+          {
+           "type": "frame",
+           "name": "Текст",
+           "children": [
+            {
+             "type": "text",
+             "content": "Чекає у відділенні №12",
+             "size": 15,
+             "weight": 700,
+             "color": "$semantic/text"
+            },
+            {
+             "type": "text",
+             "content": "вт 24.11, 09:32 · Львів",
+             "size": 13,
+             "weight": 400,
+             "color": "$semantic/text-muted"
+            }
+           ],
+           "gap": 2
+          }
+         ],
+         "layout": "horizontal",
+         "gap": 12,
+         "crossAlign": "start"
+        }
+       ],
+       "gap": 14,
+       "padding": [
+        20,
+        20
+       ],
+       "radius": 20,
+       "fill": "$semantic/surface",
+       "stroke": "$semantic/line",
+       "width": "fill"
+      },
+      {
+       "type": "frame",
+       "name": "Деталі",
+       "children": [
+        {
+         "type": "text",
+         "content": "Деталі",
+         "size": 20,
+         "weight": 700,
+         "color": "$semantic/text"
+        },
+        {
+         "type": "frame",
+         "name": "Рядок",
+         "children": [
+          {
+           "type": "text",
+           "content": "Вага",
+           "size": 15,
+           "weight": 400,
+           "color": "$semantic/text-muted"
+          },
+          {
+           "type": "text",
+           "content": "1,2 кг",
+           "size": 15,
+           "weight": 600,
+           "color": "$semantic/text"
+          }
+         ],
+         "layout": "horizontal",
+         "align": "space-between",
+         "width": "fill"
+        },
+        {
+         "type": "frame",
+         "name": "Рядок",
+         "children": [
+          {
+           "type": "text",
+           "content": "Оголошена вартість",
+           "size": 15,
+           "weight": 400,
+           "color": "$semantic/text-muted"
+          },
+          {
+           "type": "text",
+           "content": "500 ₴",
+           "size": 15,
+           "weight": 600,
+           "color": "$semantic/text"
+          }
+         ],
+         "layout": "horizontal",
+         "align": "space-between",
+         "width": "fill"
+        },
+        {
+         "type": "frame",
+         "name": "Рядок",
+         "children": [
+          {
+           "type": "text",
+           "content": "Оплата при отриманні",
+           "size": 15,
+           "weight": 400,
+           "color": "$semantic/text-muted"
+          },
+          {
+           "type": "text",
+           "content": "0 ₴",
+           "size": 15,
+           "weight": 600,
+           "color": "$semantic/text"
+          }
+         ],
+         "layout": "horizontal",
+         "align": "space-between",
+         "width": "fill"
+        }
+       ],
+       "gap": 10,
+       "padding": [
+        20,
+        20
+       ],
+       "radius": 20,
+       "fill": "$semantic/surface",
+       "stroke": "$semantic/line",
+       "width": "fill"
+      }
+     ],
+     "gap": 16,
+     "padding": [
+      8,
+      16,
+      32,
+      16
+     ],
+     "width": "fill"
+    }
+   ],
+   "width": 390,
+   "fill": "$semantic/bg",
+   "gap": 0,
+   "id": "track-390"
+  },
+  {
+   "type": "frame",
+   "name": "Трекінг · 1440",
+   "children": [
+    {
+     "type": "frame",
+     "name": "Плашка концепту",
+     "children": [
+      {
+       "type": "text",
+       "content": "Redesign concept, not the official Nova Poshta website · Концепт редизайну, не офіційний сайт Нової пошти",
+       "size": 13,
+       "weight": 500,
+       "color": "$semantic/warning"
+      }
+     ],
+     "padding": [
+      8,
+      16
+     ],
+     "fill": "$semantic/warning-bg",
+     "width": "fill"
+    },
+    {
+     "type": "frame",
+     "name": "Шапка",
+     "children": [
+      {
+       "type": "text",
+       "content": "Відстеження посилки",
+       "size": 17,
+       "weight": 800,
+       "color": "$semantic/text"
+      },
+      {
+       "type": "frame",
+       "name": "Плашка",
+       "children": [
+        {
+         "type": "text",
+         "content": "концепт",
+         "size": 13,
+         "weight": 600,
+         "color": "$semantic/accent"
+        }
+       ],
+       "layout": "horizontal",
+       "padding": [
+        5,
+        10
+       ],
+       "radius": "full",
+       "fill": "$semantic/accent-soft"
+      }
+     ],
+     "layout": "horizontal",
+     "align": "space-between",
+     "crossAlign": "center",
+     "width": "fill",
+     "padding": [
+      16,
+      64
+     ]
+    },
+    {
+     "type": "frame",
+     "name": "Контент",
+     "children": [
+      {
+       "type": "frame",
+       "name": "Ліва колонка",
+       "children": [
+        {
+         "type": "text",
+         "content": "Де моя посилка?",
+         "size": 44,
+         "weight": 800,
+         "color": "$semantic/text",
+         "letterSpacing": "-0.02em"
+        },
+        {
+         "type": "frame",
+         "name": "Поле ТТН",
+         "children": [
+          {
+           "type": "text",
+           "content": "Номер накладної (ТТН)",
+           "size": 15,
+           "weight": 600,
+           "color": "$semantic/text"
+          },
+          {
+           "type": "frame",
+           "name": "Інпут",
+           "children": [
+            {
+             "type": "text",
+             "content": "20 4512 3456 7890",
+             "size": 20,
+             "weight": 500,
+             "color": "$semantic/text",
+             "letterSpacing": "0.02em"
+            }
+           ],
+           "layout": "horizontal",
+           "width": "fill",
+           "padding": [
+            14,
+            16
+           ],
+           "radius": 12,
+           "fill": "$semantic/surface",
+           "stroke": "$semantic/line",
+           "crossAlign": "center"
+          },
+          {
+           "type": "text",
+           "content": "14 цифр. Є в SMS і в застосунку",
+           "size": 13,
+           "weight": 400,
+           "color": "$semantic/text-muted"
+          },
+          {
+           "type": "frame",
+           "name": "Кнопка",
+           "children": [
+            {
+             "type": "text",
+             "content": "Відстежити",
+             "size": 17,
+             "weight": 700,
+             "color": "$semantic/on-accent"
+            }
+           ],
+           "layout": "horizontal",
+           "width": "fill",
+           "padding": [
+            14,
+            20
+           ],
+           "radius": 12,
+           "fill": "$semantic/accent",
+           "align": "center"
+          }
+         ],
+         "gap": 8,
+         "width": "fill"
+        },
+        {
+         "type": "frame",
+         "name": "Статус",
+         "children": [
+          {
+           "type": "frame",
+           "name": "Рядок",
+           "children": [
+            {
+             "type": "frame",
+             "name": "Плашка",
+             "children": [
+              {
+               "type": "text",
+               "content": "Чекає у відділенні",
+               "size": 13,
+               "weight": 600,
+               "color": "$semantic/success"
+              }
+             ],
+             "layout": "horizontal",
+             "padding": [
+              5,
+              10
+             ],
+             "radius": "full",
+             "fill": "$semantic/success-bg"
+            },
+            {
+             "type": "text",
+             "content": "демо-дані",
+             "size": 13,
+             "weight": 400,
+             "color": "$semantic/text-muted"
+            }
+           ],
+           "layout": "horizontal",
+           "align": "space-between",
+           "crossAlign": "center",
+           "width": "fill"
+          },
+          {
+           "type": "text",
+           "content": "Можна забирати",
+           "size": 32,
+           "weight": 800,
+           "color": "$semantic/text",
+           "letterSpacing": "-0.02em"
+          },
+          {
+           "type": "text",
+           "content": "Відділення №12 · вул. Прикладна, 1",
+           "size": 17,
+           "weight": 500,
+           "color": "$semantic/text"
+          },
+          {
+           "type": "frame",
+           "name": "Плашка",
+           "children": [
+            {
+             "type": "text",
+             "content": "Безкоштовно зберігається до пт 28.11",
+             "size": 13,
+             "weight": 600,
+             "color": "$semantic/warning"
+            }
+           ],
+           "layout": "horizontal",
+           "padding": [
+            5,
+            10
+           ],
+           "radius": "full",
+           "fill": "$semantic/warning-bg"
+          },
+          {
+           "type": "frame",
+           "name": "Дії",
+           "children": [
+            {
+             "type": "frame",
+             "name": "Дія",
+             "children": [
+              {
+               "type": "text",
+               "content": "Маршрут",
+               "size": 15,
+               "weight": 600,
+               "color": "$semantic/accent"
+              }
+             ],
+             "layout": "horizontal",
+             "padding": [
+              11,
+              16
+             ],
+             "radius": 12,
+             "stroke": "$semantic/line"
+            },
+            {
+             "type": "frame",
+             "name": "Дія",
+             "children": [
+              {
+               "type": "text",
+               "content": "Продовжити зберігання",
+               "size": 15,
+               "weight": 600,
+               "color": "$semantic/accent"
+              }
+             ],
+             "layout": "horizontal",
+             "padding": [
+              11,
+              16
+             ],
+             "radius": 12,
+             "stroke": "$semantic/line"
+            }
+           ],
+           "layout": "horizontal",
+           "gap": 8,
+           "wrap": true,
+           "rowGap": 8
+          }
+         ],
+         "gap": 12,
+         "padding": [
+          20,
+          20
+         ],
+         "radius": 20,
+         "fill": "$semantic/surface",
+         "stroke": "$semantic/line",
+         "width": "fill"
+        }
+       ],
+       "gap": 20,
+       "width": 520
+      },
+      {
+       "type": "frame",
+       "name": "Права колонка",
+       "children": [
+        {
+         "type": "frame",
+         "name": "Маршрут посилки",
+         "children": [
+          {
+           "type": "text",
+           "content": "Маршрут",
+           "size": 20,
+           "weight": 700,
+           "color": "$semantic/text"
+          },
+          {
+           "type": "frame",
+           "name": "Крок",
+           "children": [
+            {
+             "type": "rect",
+             "name": "Точка",
+             "width": 12,
+             "height": 12,
+             "radius": 6,
+             "fill": "$semantic/text-muted"
+            },
+            {
+             "type": "frame",
+             "name": "Текст",
+             "children": [
+              {
+               "type": "text",
+               "content": "Посилку створено",
+               "size": 15,
+               "weight": 500,
+               "color": "$semantic/text"
+              },
+              {
+               "type": "text",
+               "content": "пн 23.11, 14:05 · Київ",
+               "size": 13,
+               "weight": 400,
+               "color": "$semantic/text-muted"
+              }
+             ],
+             "gap": 2
+            }
+           ],
+           "layout": "horizontal",
+           "gap": 12,
+           "crossAlign": "start"
+          },
+          {
+           "type": "frame",
+           "name": "Крок",
+           "children": [
+            {
+             "type": "rect",
+             "name": "Точка",
+             "width": 12,
+             "height": 12,
+             "radius": 6,
+             "fill": "$semantic/text-muted"
+            },
+            {
+             "type": "frame",
+             "name": "Текст",
+             "children": [
+              {
+               "type": "text",
+               "content": "Відправлено",
+               "size": 15,
+               "weight": 500,
+               "color": "$semantic/text"
+              },
+              {
+               "type": "text",
+               "content": "пн 23.11, 18:40 · Київ",
+               "size": 13,
+               "weight": 400,
+               "color": "$semantic/text-muted"
+              }
+             ],
+             "gap": 2
+            }
+           ],
+           "layout": "horizontal",
+           "gap": 12,
+           "crossAlign": "start"
+          },
+          {
+           "type": "frame",
+           "name": "Крок",
+           "children": [
+            {
+             "type": "rect",
+             "name": "Точка",
+             "width": 12,
+             "height": 12,
+             "radius": 6,
+             "fill": "$semantic/text-muted"
+            },
+            {
+             "type": "frame",
+             "name": "Текст",
+             "children": [
+              {
+               "type": "text",
+               "content": "Прибула в місто",
+               "size": 15,
+               "weight": 500,
+               "color": "$semantic/text"
+              },
+              {
+               "type": "text",
+               "content": "вт 24.11, 07:10 · Львів",
+               "size": 13,
+               "weight": 400,
+               "color": "$semantic/text-muted"
+              }
+             ],
+             "gap": 2
+            }
+           ],
+           "layout": "horizontal",
+           "gap": 12,
+           "crossAlign": "start"
+          },
+          {
+           "type": "frame",
+           "name": "Крок",
+           "children": [
+            {
+             "type": "rect",
+             "name": "Точка",
+             "width": 12,
+             "height": 12,
+             "radius": 6,
+             "fill": "$semantic/success"
+            },
+            {
+             "type": "frame",
+             "name": "Текст",
+             "children": [
+              {
+               "type": "text",
+               "content": "Чекає у відділенні №12",
+               "size": 15,
+               "weight": 700,
+               "color": "$semantic/text"
+              },
+              {
+               "type": "text",
+               "content": "вт 24.11, 09:32 · Львів",
+               "size": 13,
+               "weight": 400,
+               "color": "$semantic/text-muted"
+              }
+             ],
+             "gap": 2
+            }
+           ],
+           "layout": "horizontal",
+           "gap": 12,
+           "crossAlign": "start"
+          }
+         ],
+         "gap": 14,
+         "padding": [
+          20,
+          20
+         ],
+         "radius": 20,
+         "fill": "$semantic/surface",
+         "stroke": "$semantic/line",
+         "width": "fill"
+        },
+        {
+         "type": "frame",
+         "name": "Деталі",
+         "children": [
+          {
+           "type": "text",
+           "content": "Деталі",
+           "size": 20,
+           "weight": 700,
+           "color": "$semantic/text"
+          },
+          {
+           "type": "frame",
+           "name": "Рядок",
+           "children": [
+            {
+             "type": "text",
+             "content": "Вага",
+             "size": 15,
+             "weight": 400,
+             "color": "$semantic/text-muted"
+            },
+            {
+             "type": "text",
+             "content": "1,2 кг",
+             "size": 15,
+             "weight": 600,
+             "color": "$semantic/text"
+            }
+           ],
+           "layout": "horizontal",
+           "align": "space-between",
+           "width": "fill"
+          },
+          {
+           "type": "frame",
+           "name": "Рядок",
+           "children": [
+            {
+             "type": "text",
+             "content": "Оголошена вартість",
+             "size": 15,
+             "weight": 400,
+             "color": "$semantic/text-muted"
+            },
+            {
+             "type": "text",
+             "content": "500 ₴",
+             "size": 15,
+             "weight": 600,
+             "color": "$semantic/text"
+            }
+           ],
+           "layout": "horizontal",
+           "align": "space-between",
+           "width": "fill"
+          },
+          {
+           "type": "frame",
+           "name": "Рядок",
+           "children": [
+            {
+             "type": "text",
+             "content": "Оплата при отриманні",
+             "size": 15,
+             "weight": 400,
+             "color": "$semantic/text-muted"
+            },
+            {
+             "type": "text",
+             "content": "0 ₴",
+             "size": 15,
+             "weight": 600,
+             "color": "$semantic/text"
+            }
+           ],
+           "layout": "horizontal",
+           "align": "space-between",
+           "width": "fill"
+          }
+         ],
+         "gap": 10,
+         "padding": [
+          20,
+          20
+         ],
+         "radius": 20,
+         "fill": "$semantic/surface",
+         "stroke": "$semantic/line",
+         "width": "fill"
+        }
+       ],
+       "gap": 20,
+       "width": "fill"
+      }
+     ],
+     "layout": "horizontal",
+     "gap": 32,
+     "padding": [
+      24,
+      64,
+      64,
+      64
+     ],
+     "width": "fill",
+     "crossAlign": "start"
+    }
+   ],
+   "width": 1440,
+   "fill": "$semantic/bg",
+   "gap": 0,
+   "id": "track-1440"
+  },
+  {
+   "type": "frame",
+   "name": "Поле ТТН · стани",
+   "children": [
+    {
+     "type": "text",
+     "content": "Поле ТТН · стани",
+     "size": 24,
+     "weight": 700,
+     "color": "$semantic/text"
+    },
+    {
+     "type": "frame",
+     "name": "Стани",
+     "children": [
+      {
+       "type": "frame",
+       "name": "порожнє",
+       "children": [
+        {
+         "type": "text",
+         "content": "порожнє",
+         "size": 13,
+         "weight": 600,
+         "color": "$semantic/text-muted"
+        },
+        {
+         "type": "frame",
+         "name": "Поле ТТН · empty",
+         "children": [
+          {
+           "type": "text",
+           "content": "Номер накладної (ТТН)",
+           "size": 15,
+           "weight": 600,
+           "color": "$semantic/text"
+          },
+          {
+           "type": "frame",
+           "name": "Інпут",
+           "children": [
+            {
+             "type": "text",
+             "content": "Напр. 20 4512 3456 7890",
+             "size": 20,
+             "weight": 500,
+             "color": "$semantic/text-muted",
+             "letterSpacing": "0.02em"
+            }
+           ],
+           "layout": "horizontal",
+           "width": "fill",
+           "padding": [
+            14,
+            16
+           ],
+           "radius": 12,
+           "fill": "$semantic/surface",
+           "stroke": "$semantic/line",
+           "crossAlign": "center"
+          },
+          {
+           "type": "text",
+           "content": "14 цифр. Є в SMS і в застосунку",
+           "size": 13,
+           "weight": 400,
+           "color": "$semantic/text-muted"
+          },
+          {
+           "type": "frame",
+           "name": "Кнопка",
+           "children": [
+            {
+             "type": "text",
+             "content": "Відстежити",
+             "size": 17,
+             "weight": 700,
+             "color": "$semantic/on-accent"
+            }
+           ],
+           "layout": "horizontal",
+           "width": "fill",
+           "padding": [
+            14,
+            20
+           ],
+           "radius": 12,
+           "fill": "$semantic/accent",
+           "align": "center"
+          }
+         ],
+         "gap": 8,
+         "width": "fill"
+        }
+       ],
+       "gap": 10,
+       "width": 340
+      },
+      {
+       "type": "frame",
+       "name": "фокус",
+       "children": [
+        {
+         "type": "text",
+         "content": "фокус",
+         "size": 13,
+         "weight": 600,
+         "color": "$semantic/text-muted"
+        },
+        {
+         "type": "frame",
+         "name": "Поле ТТН · focus",
+         "children": [
+          {
+           "type": "text",
+           "content": "Номер накладної (ТТН)",
+           "size": 15,
+           "weight": 600,
+           "color": "$semantic/text"
+          },
+          {
+           "type": "frame",
+           "name": "Інпут",
+           "children": [
+            {
+             "type": "text",
+             "content": "20 4512 3456 78|",
+             "size": 20,
+             "weight": 500,
+             "color": "$semantic/text",
+             "letterSpacing": "0.02em"
+            }
+           ],
+           "layout": "horizontal",
+           "width": "fill",
+           "padding": [
+            14,
+            16
+           ],
+           "radius": 12,
+           "fill": "$semantic/surface",
+           "stroke": "$semantic/focus",
+           "crossAlign": "center"
+          },
+          {
+           "type": "text",
+           "content": "14 цифр. Є в SMS і в застосунку",
+           "size": 13,
+           "weight": 400,
+           "color": "$semantic/text-muted"
+          },
+          {
+           "type": "frame",
+           "name": "Кнопка",
+           "children": [
+            {
+             "type": "text",
+             "content": "Відстежити",
+             "size": 17,
+             "weight": 700,
+             "color": "$semantic/on-accent"
+            }
+           ],
+           "layout": "horizontal",
+           "width": "fill",
+           "padding": [
+            14,
+            20
+           ],
+           "radius": 12,
+           "fill": "$semantic/accent",
+           "align": "center"
+          }
+         ],
+         "gap": 8,
+         "width": "fill"
+        }
+       ],
+       "gap": 10,
+       "width": 340
+      },
+      {
+       "type": "frame",
+       "name": "помилка",
+       "children": [
+        {
+         "type": "text",
+         "content": "помилка",
+         "size": 13,
+         "weight": 600,
+         "color": "$semantic/text-muted"
+        },
+        {
+         "type": "frame",
+         "name": "Поле ТТН · error",
+         "children": [
+          {
+           "type": "text",
+           "content": "Номер накладної (ТТН)",
+           "size": 15,
+           "weight": 600,
+           "color": "$semantic/text"
+          },
+          {
+           "type": "frame",
+           "name": "Інпут",
+           "children": [
+            {
+             "type": "text",
+             "content": "20 4512 3456 7",
+             "size": 20,
+             "weight": 500,
+             "color": "$semantic/text",
+             "letterSpacing": "0.02em"
+            }
+           ],
+           "layout": "horizontal",
+           "width": "fill",
+           "padding": [
+            14,
+            16
+           ],
+           "radius": 12,
+           "fill": "$semantic/surface",
+           "stroke": "$semantic/accent",
+           "crossAlign": "center"
+          },
+          {
+           "type": "text",
+           "content": "Номер має 14 цифр, зараз 11",
+           "size": 13,
+           "weight": 500,
+           "color": "$semantic/accent"
+          },
+          {
+           "type": "frame",
+           "name": "Кнопка",
+           "children": [
+            {
+             "type": "text",
+             "content": "Відстежити",
+             "size": 17,
+             "weight": 700,
+             "color": "$semantic/on-accent"
+            }
+           ],
+           "layout": "horizontal",
+           "width": "fill",
+           "padding": [
+            14,
+            20
+           ],
+           "radius": 12,
+           "fill": "$semantic/accent",
+           "align": "center"
+          }
+         ],
+         "gap": 8,
+         "width": "fill"
+        }
+       ],
+       "gap": 10,
+       "width": 340
+      },
+      {
+       "type": "frame",
+       "name": "завантаження",
+       "children": [
+        {
+         "type": "text",
+         "content": "завантаження",
+         "size": 13,
+         "weight": 600,
+         "color": "$semantic/text-muted"
+        },
+        {
+         "type": "frame",
+         "name": "Поле ТТН · loading",
+         "children": [
+          {
+           "type": "text",
+           "content": "Номер накладної (ТТН)",
+           "size": 15,
+           "weight": 600,
+           "color": "$semantic/text"
+          },
+          {
+           "type": "frame",
+           "name": "Інпут",
+           "children": [
+            {
+             "type": "text",
+             "content": "20 4512 3456 7890",
+             "size": 20,
+             "weight": 500,
+             "color": "$semantic/text",
+             "letterSpacing": "0.02em"
+            }
+           ],
+           "layout": "horizontal",
+           "width": "fill",
+           "padding": [
+            14,
+            16
+           ],
+           "radius": 12,
+           "fill": "$semantic/surface",
+           "stroke": "$semantic/line",
+           "crossAlign": "center"
+          },
+          {
+           "type": "text",
+           "content": "14 цифр. Є в SMS і в застосунку",
+           "size": 13,
+           "weight": 400,
+           "color": "$semantic/text-muted"
+          },
+          {
+           "type": "frame",
+           "name": "Кнопка",
+           "children": [
+            {
+             "type": "text",
+             "content": "Шукаю…",
+             "size": 17,
+             "weight": 700,
+             "color": "$semantic/on-accent"
+            }
+           ],
+           "layout": "horizontal",
+           "width": "fill",
+           "padding": [
+            14,
+            20
+           ],
+           "radius": 12,
+           "fill": "$semantic/accent-hover",
+           "align": "center"
+          }
+         ],
+         "gap": 8,
+         "width": "fill"
+        }
+       ],
+       "gap": 10,
+       "width": 340
+      }
+     ],
+     "layout": "horizontal",
+     "gap": 24,
+     "crossAlign": "start"
+    }
+   ],
+   "width": 1504,
+   "fill": "$semantic/bg",
+   "padding": [
+    48,
+    48
+   ],
+   "gap": 24,
+   "id": "field-states"
+  }
+ ]
+}
